@@ -18,28 +18,6 @@ body {
     justify-content: space-between;
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.logo {
-    width: 32px;
-    height: 32px;
-    background-color: white;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo-text {
-    color: #1e3a8a;
-    font-weight: bold;
-    font-size: 14px;
-}
-
 .welcome {
     color: white;
     font-weight: 500;
@@ -60,11 +38,6 @@ body {
     padding: 24px 16px;
 }
 
-.form-group {
-    margin-bottom: 16px;
-    position: relative;
-}
-
 .form-control {
     width: 100%;
     padding: 12px 16px;
@@ -74,6 +47,7 @@ body {
     font-size: 16px;
     color: #111827;
     appearance: none;
+    margin-bottom: 16px;
 }
 
 .checkbox-group {
@@ -170,17 +144,9 @@ body {
     gap: 12px;
 }
 
-.cart-item.primary {
-    background-color: #eff6ff;
-}
-
 .cart-text {
     color: #111827;
     font-size: 14px;
-}
-
-.form-control {
-    margin-bottom: 16px;
 }
 
 .static-text {
